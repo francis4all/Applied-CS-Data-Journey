@@ -21,7 +21,7 @@ The workflow prioritizes data quality as the primary predictor of success:
 ## Tech Stack
 * **Python 3.10+**
 * **Pandas & NumPy:** Vectorized data manipulation.
-* **Matplotlib & Seaborn:** Distribution visualization (Age histograms, Survival heatmaps).
+* **Matplotlib & Seaborn:** Distribution visualization (Age histograms, survival/deceased barplot).
 * **SciPy:** Statistical hypothesis testing.
 
 ## How to Run
