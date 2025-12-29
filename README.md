@@ -6,22 +6,22 @@ Welcome to my central academic portfolio. This monorepo consolidates my journey 
 
 ## Repository Structure
 
-### 01. Intro to Data Science
+### Data Science Fundamentals
 Foundations of data manipulation, model validation, and unstructured data extraction.
 * **Titanic Wrangling:** Data cleaning and heuristic prediction modeling (Non-black-box approach).
 * **Cross Validation Metrics:** Robust model evaluation (Accuracy, Precision, Recall) using K-Fold.
 * **Web Scraping:** Automated extraction of unstructured news data.
 
-### 02. Math Foundations
+### Math Foundations
 Applying pure mathematical concepts through programming.
 * **Calculus Visualizer:** Interactive visualization of tangent lines and derivatives.
 * **Image Processing (Linear Algebra):** Image manipulation using matrix operations (SVD, filters).
 
-### 03. Distributed Systems & SQL
+### Distributed Systems & SQL
 Backend architecture and data handling at scale.
 * **Distributed Banking DB:** Simulation of a distributed database system handling concurrent banking transactions.
 
-### 04. AI & Data Mining
+### AI & Machine Learning
 Search algorithms and pattern recognition.
 * **CSP Untangler:** Constraint Satisfaction Problem solver.
 
