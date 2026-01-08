@@ -1,0 +1,31 @@
+=== REPORTE ESTADÍSTICO (PYTHON) ===
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                 attack   R-squared:                       0.153
+Model:                            OLS   Adj. R-squared:                  0.151
+Method:                 Least Squares   F-statistic:                     101.4
+Date:                Thu, 08 Jan 2026   Prob (F-statistic):           4.79e-22
+Time:                        06:09:35   Log-Likelihood:                -2736.6
+No. Observations:                 565   AIC:                             5477.
+Df Residuals:                     563   BIC:                             5486.
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const         45.6367      3.525     12.948      0.000      38.714      52.560
+hp             0.4797      0.048     10.071      0.000       0.386       0.573
+==============================================================================
+Omnibus:                       42.492   Durbin-Watson:                   1.479
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              182.977
+Skew:                           0.084   Prob(JB):                     1.85e-40
+Kurtosis:                       5.783   Cond. No.                         202.
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+--- PRUEBAS DE SUPUESTOS ---
+Normalidad (Lilliefors) p-val: 1.0000e-03
+Homocedasticidad (Breusch-Pagan) p-val: 1.6003e-21
+Independencia (Durbin-Watson): 1.48

@@ -4,7 +4,7 @@ This directory explores the core mathematical concepts that power modern Artific
 
 ## Project Overview
 
-### 1. Image Processing & Linear Algebra
+### 1. [Image Processing & Linear Algebra](./notebooks/image_processing.ipynb)
 * **Context:** Images are essentially multi-dimensional matrices. This project applies Linear Algebra concepts to manipulate and analyze visual data.
 * **Key Concepts:**
     * **Matrix Operations:** Understanding channels, pixel manipulation, and transformations.
@@ -19,7 +19,9 @@ This directory explores the core mathematical concepts that power modern Artific
     * **Tangent Lines:** Geometric interpretation of the derivative.
     * **Optimization:** Intuition behind finding minima/maxima in functions.
 * **Tech Stack:** Python, Matplotlib, and **PyQt5** for the Graphical User Interface (GUI).
-* **Source Code:** `src/visualizer.py`
+* **Source Code:** [`src/visualizer.py`](./src/visualizer.py)
+
+![Math Visualizer Demo](./images/Figure_1.png)
 
 ## Usage
 

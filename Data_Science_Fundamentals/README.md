@@ -1,47 +1,42 @@
 # Data Science Fundamentals
 
-This directory consolidates foundational projects covering the essential Data Science pipeline: data wrangling, automated web scraping, and robust model evaluation metrics.
+This directory consolidates my foundational projects in Data Science, documenting my journey from data acquisition and cleaning to advanced statistical inference and model evaluation. 
 
-## Project Overview
+As a student of **Information Technologies for Science** at **ENES Morelia, UNAM**, I apply a rigorous, bilingual (Python & R) approach to solve data-driven problems.
 
-### 1. Titanic: Data Wrangling & Exploratory Analysis
+## Featured Projects
+
+### 1. [Pokemon Statistical Analysis: Evolution & Multivariate Study](./R_Pokemon_Stats)
+A deep dive into "Power Creep" and game balance. This project replicates and expands upon my academic research for the Descriptive and Inferential Statistics course.
+* **Key Skills:** Hypothesis Testing (Normality, Homoscedasticity), OLS Regression, Residual Diagnostics.
+* **Bilingual Implementation:** Comparison of statistical outputs between `R (Tidyverse)` and `Python (Statsmodels)`.
+
+### 2. [Titanic: Data Wrangling & EDA](./Titanic_Wrangling/notebooks/analysis_and_cleaning.ipynb)
 * **Context:** A classic dataset analysis focusing on data quality and survival factors.
-* **Key Achievements:**
-    * Performed extensive data cleaning, including missing value imputation for 'Age' and 'Cabin' columns.
-    * Conducted Exploratory Data Analysis (EDA) to visualize survival correlations with demographic features.
-    * Engineered features to prepare the dataset for predictive modeling.
-* **Notebook:** `notebooks/analysis_and_cleaning.ipynb`
+* **Key Achievements:** Extensive data cleaning (imputation of 'Age' and 'Cabin') and visualization of survival correlations.
 
-### 2. Cross-Validation & Advanced Metrics
-* **Context:** Moving beyond simple accuracy to evaluate model robustness using real-world data (CIA Countries dataset).
-* **Key Achievements:**
-    * Implemented **K-Fold Cross-Validation** to test model stability.
-    * Analyzed classification performance using **Precision, Recall, and F1-Score**.
-    * Demonstrated the importance of choosing the right metric for imbalanced classes.
-* **Notebook:** `notebooks/model_evaluation.ipynb`
+### 3. [Web Scraping: Books Market Analysis](./Books_Scraping/notebooks/books_market_analysis.ipynb)
+* **Context:** Automating the extraction of market data to demonstrate ETL capabilities.
+* **Key Achievements:** Built a scraper using **BeautifulSoup** to transform unstructured HTML into clean DataFrames.
 
-### 3. Web Scraping: Books Market Analysis
-* **Context:** Automating the extraction of market data from an online bookstore.
-* **Key Achievements:**
-    * Built a scraper using **Requests** and **BeautifulSoup** to parse HTML content.
-    * Extracted structured data (prices, titles, ratings) from unstructured web pages.
-    * Transformed raw scraped data into a clean Pandas DataFrame for analysis.
-* **Notebook:** `notebooks/books_market_analysis.ipynb`
+### 4. [Cross-Validation & Advanced Metrics](./Model_Evaluation/notebooks/model_evaluation.ipynb)
+* **Context:** Evaluating model robustness using K-Fold Cross-Validation on the CIA Countries dataset.
 
-## Tech Stack & Requirements
+---
 
-* **Data Manipulation:** Pandas, NumPy
-* **Visualization:** Matplotlib, Seaborn
-* **Scraping:** BeautifulSoup4, Requests
-* **Machine Learning:** Scikit-Learn
+## Global Tech Stack
+* **Languages:** Python 3.x & R 4.x (Bilingual Statistical Analysis).
+* **Data Science & Modeling:** Pandas, NumPy, SciPy, Statsmodels, Scikit-Learn.
+* **Statistical Rigor (R):** Tidyverse, Car, Nortest, Lmtest.
+* **Visualization:** Matplotlib, Seaborn (Python) and Ggplot2 (R).
+* **Data Acquisition:** BeautifulSoup4, Requests (ETL & Web Scraping).
+* **IDE & Environment:** Visual Studio Code, Jupyter Ecosystem & Ubuntu Linux.
 
-## Usage Instructions
+## Learning Path
+1. **Data Acquisition:** Web scraping and automated data collection.
+2. **Data Foundations:** Wrangling, cleaning, and feature engineering. 
+3. **Statistical Inference:** Testing significance and predictive modeling.
+4. **Current Milestone:** [Deep Learning & Neural Networks] (In Progress).
 
-1. **Install Dependencies:**
-   Ensure you have Python installed, then run:
-   ```bash
-   pip install -r requirements.txt
-2. **Run the Notebooks:**
-    You can explore any project by launching the Jupyter notebooks directly:
-    ```bash
-    jupyter notebook notebooks/
+---
+*Developed as part of my professional portfolio in Information Technologies for Science (UNAM).*
