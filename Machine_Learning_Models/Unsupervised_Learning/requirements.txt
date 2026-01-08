@@ -1,0 +1,25 @@
+# Data Manipulation & Math
+pandas
+numpy
+scipy
+openpyxl
+# Visualization
+matplotlib
+seaborn
+# Machine Learning & Stats
+scikit-learn
+mlxtend
+statsmodels
+# Clustering & Projections (Advanced)
+gower
+umap-learn
+hdbscan
+# NLP
+nltk
+# Dashboarding
+dash
+dash-bootstrap-components
+plotly
+# Development & Notebooks
+jupyter
+jupytext
