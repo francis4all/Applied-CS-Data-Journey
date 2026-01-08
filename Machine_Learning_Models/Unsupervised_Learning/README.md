@@ -2,7 +2,7 @@
 
 This directory hosts advanced Machine Learning projects focused on **pattern discovery**, **latent structure extraction**, and **market segmentation** without labeled data.
 
-## 📂 Project Portfolio
+## Project Portfolio
 
 ### 1. Mixed-Data Clustering: Student Mental Health
 * **The Challenge:** Real-world data is rarely purely numerical. This project tackles the complexity of clustering heterogeneous data (numerical, ordinal, and nominal variables).
@@ -10,14 +10,14 @@ This directory hosts advanced Machine Learning projects focused on **pattern dis
     * **Gower's Distance:** To compute similarity between mixed data types.
     * **UMAP:** For non-linear dimensionality reduction and visualization.
     * **Hierarchical Clustering:** To identify natural groupings in the latent space.
-* **Notebook:** `notebooks/01_mental_health_clustering_mixed.md`
+* **Notebook:** [`notebooks/01_mental_health_clustering_mixed.md`](./notebooks/mental_health_clustering_mixed.ipynb)
 
 ### 2. Market Basket Analysis: Global Cuisine Identity
 * **The Challenge:** Discovering the "DNA" of different culinary regions based on ingredient combinations.
 * **Technique:**
     * **Apriori Algorithm:** To mine frequent itemsets in high-dimensional transactional data.
     * **Lift Metric Analysis:** To filter out coincidental associations and find strong causal links (e.g., finding the core spice combinations of Latin American cuisine).
-* **Notebook:** `notebooks/02_market_basket_recipes.md`
+* **Notebook:** [`notebooks/02_market_basket_recipes.md`](./notebooks/market_basket_recipies.ipynb)
 
 ### 3. Topic Modeling: Semantic Extraction in NLP
 * **The Challenge:** Automatically categorizing a corpus of unstructured texts ("Magic Spells") stored in compressed archives without manual labeling.
@@ -25,11 +25,12 @@ This directory hosts advanced Machine Learning projects focused on **pattern dis
     * **Direct ZIP Ingestion:** Processing text files directly from memory without decompression.
     * **TF-IDF:** For text vectorization and custom Spanish stop-word filtering (NLTK).
     * **NMF (Non-negative Matrix Factorization):** To decompose the document-term matrix into interpretable semantic topics like "Love", "Money", or "Protection".
-* **Notebook:** `notebooks/03_topic_modeling_nmf_spells.md`
+* **Notebook:** [`notebooks/03_topic_modeling_nmf_spells.md`](./notebooks/topic_modeling_nmf_spells.ipynb)
 
-## 📊 Interactive Dashboard
+## [Interactive Dashboard](./app/app.py)
 
 A production-ready dashboard built with **Dash & Plotly** is included to visualize the Mental Health Clusters.
+
 
 ### How to Run
 

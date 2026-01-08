@@ -4,13 +4,13 @@ This directory explores the core mathematical concepts that power modern Artific
 
 ## Project Overview
 
-### 1. [Image Processing & Linear Algebra](./notebooks/image_processing.ipynb)
+### 1. Image Processing & Linear Algebra
 * **Context:** Images are essentially multi-dimensional matrices. This project applies Linear Algebra concepts to manipulate and analyze visual data.
 * **Key Concepts:**
     * **Matrix Operations:** Understanding channels, pixel manipulation, and transformations.
     * **Kernels & Filters:** Applying convolution principles for edge detection and blurring.
     * **Color Spaces:** Manipulating RGB and grayscale tensors.
-* **Notebook:** `notebooks/image_processing.ipynb`
+* **Notebook:** [`notebooks/image_processing.ipynb`](./notebooks/image_processing.ipynb)
 
 ### 2. Calculus: Interactive Tangent Visualizer
 * **Context:** Understanding derivatives is crucial for grasping optimization algorithms like **Gradient Descent**.
