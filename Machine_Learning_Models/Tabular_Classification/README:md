@@ -1,0 +1,20 @@
+# Horse Colic Prediction: Imputation & Multiclass Strategy
+
+## Overview
+This project addresses the challenge of predicting medical outcomes (Alive, Dead, Euthanized) using the UCI **Horse Colic dataset**. The primary challenge is not the modeling itself, but the **Data Wrangling** required to handle a significant proportion of missing values (`?`) and the adaptation of binary classifiers for a multi-class problem without losing interpretability.
+
+**Key Result:** Achieved an accuracy of **77.6%** using statistical **Mean/Median imputation** combined with **Standard Scaling**. This outperformed the baseline Zero-Imputation strategy (71.6%), proving that "absence of data" should be treated statistically rather than arbitrarily in clinical datasets.
+
+## Methodology
+The workflow focuses on robust data cleaning and convergence optimization:
+
+1.  **Strategic Imputation:**
+    * Conducted a comparative analysis of three imputation strategies: **Zero**, **Mean**, and **Median**.
+    * **Finding:** Median imputation proved most robust, preserving the central tendency of physiological indicators (e.g., Pulse, Temperature) against outliers.
+2.  **Data Preprocessing:**
+    * **Standard Scaling:** Applied `StandardScaler` to normalize feature magnitudes. This was critical to resolving **convergence failures** in the Logistic Regression optimization solver (`lbfgs`).
+3.  **Multiclass Architectures:**
+    * **SVM (One-vs-One):** Decomposed the 3-class problem into binary pairs (e.g., Alive vs. Dead) to vote on the final class.
+    * **Logistic Regression (One-vs-All):** Trained separate probability estimators for each class against the rest.
+4.  **Target Engineering:**
+    * Consolidated the target variable from 3 classes to a binary outcome (Alive vs. Not Alive) for specific sensitivity tests, handling the ambiguity between "Died" and "Euthanized".
