@@ -1,0 +1,16 @@
+# Core Frameworks
+torch>=2.0.0
+torchvision>=0.15.0
+fastai>=2.7.12
+
+# Data Handling & Analysis
+pandas>=1.5.0
+numpy>=1.23.0
+pillow>=9.4.0
+
+# Visualization
+matplotlib>=3.7.0
+
+# Scientific Computing
+scipy>=1.10.0
+scikit-learn>=1.2.0
