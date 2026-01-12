@@ -1,0 +1,11 @@
+# Data Processing & ETL
+pandas
+unidecode
+
+# Database Connectivity
+pymysql
+cryptography
+
+# Environment & UI
+ipykernel
+rich
