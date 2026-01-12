@@ -1,6 +1,6 @@
 # Data Science Fundamentals
 
-This directory consolidates my foundational projects in Data Science, documenting my journey from data acquisition and cleaning to advanced statistical inference and model evaluation. 
+This module consolidates my foundational projects in Data Science, documenting my journey from data acquisition and cleaning to advanced statistical inference and model evaluation. 
 
 As a student of **Information Technologies for Science** at **ENES Morelia, UNAM**, I apply a rigorous, bilingual (Python & R) approach to solve data-driven problems.
 
@@ -39,4 +39,4 @@ A deep dive into "Power Creep" and game balance. This project replicates and exp
 4. **Current Milestone:** [Deep Learning & Neural Networks] (In Progress).
 
 ---
-*Developed as part of my professional portfolio in Information Technologies for Science (UNAM).*
+*Developed as part of my Applied CS Data Journey | ENES Morelia, UNAM.*

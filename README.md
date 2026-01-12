@@ -21,7 +21,14 @@ Implementation of classical AI algorithms categorized by learning paradigm with 
     * **Market Basket Analysis** for ingredient patterns within the wolrds kitchen.  * **Topic Modeling (NMF)** for unstructured text analysis.
 * **Core Skills:** **Feature Engineering**, NLP Preprocessing, Dimensionality Reduction, Association Rules, and Hyperparameter Tuning.
 
-### 3. [Data Science Fundamentals](./Data_Science_Fundamentals/)
+### 3. [Distributed Systems & SQL](./Distributed_Systems_SQL/)
+Engineering the backbone of data: from relational foundations to high-volume ETL pipelines.
+* **[SQL Advanced Analytics](./Distributed_Systems_SQL/SQL_Advanced_Analytics/):** * **High-Volume ETL:** Normalization and ingestion of **155,000+** Mexican Postal records.
+    * **Relational Logic:** Advanced implementations of Set Theory (Joins, Unions) and complex subqueries.
+* **Distributed Banking (WIP):** Architecture for multi-node Galera Clusters and ACID-compliant transactions.
+* **Core Skills:** **ETL Pipeline Design**, Relational Algebra, Database Normalization, and Query Optimization.
+
+### 4. [Data Science Fundamentals](./Data_Science_Fundamentals/)
 The core of data engineering, model assessment, and statistical validation.
 * **Featured Project: [Pokemon Statistical Study (Gen 1-8)](./Data_Science_Fundamentals/R_Pokemon_Stats)**
     * A comprehensive three-stage study on "Power Creep" and franchise balance.
@@ -33,7 +40,7 @@ The core of data engineering, model assessment, and statistical validation.
 * **Cross Validation:** Implementation of K-Fold metrics for robust model assessment.
 * **Core Skills:** **Model Validation** (K-Fold Cross-Validation, Precision-Recall), **Inferential Statistics**, Web Scraping (BeautifulSoup), and Data Wrangling.
 
-### 4. [Math Foundations](./Math_Foundations/)
+### 5. [Math Foundations](./Math_Foundations/)
 The mathematical engine driving the code through algorithmic implementation.
 * **Linear Algebra:** Matrix-based image manipulation, SVD, and color space transformations.
 * **Calculus:** Interactive Python visualizers for derivatives and local linearity.
@@ -44,15 +51,15 @@ The mathematical engine driving the code through algorithmic implementation.
 ## Expertise & Technical Stack
 
 ### **Programming & Environments**
-* **Languages:** Python 3.10+ (Main), R 4.x (Statistical Rigor), SQL.
-* **OS & Tools:** Ubuntu Linux, Git, Visual Studio Code, Jupyter Ecosystem.
+* **Languages:** Python 3.10+ (Main), R 4.x (Statistical Rigor), SQL (MariaDB/MySQL).
+* **OS & Tools:** Ubuntu Linux, Git, Visual Studio Code, DBeaver, Jupyter Ecosystem, Conda.
 
-### **Data Science & AI Ecosystem**
+### **Data Engineering & AI Ecosystem**
+* **Databases:** MariaDB, MySQL, SQL Server (Theory), Galera Cluster.
 * **Deep Learning:** PyTorch, FastAI, Torchvision.
-* **Machine Learning:** Scikit-Learn, SciPy, Statsmodels.
-* **Data Manipulation:** Pandas, NumPy, Tidyverse (R).
-* **Visualization:** Matplotlib, Seaborn, Ggplot2 (R), Yellowbrick.
-* **Web Scraping:** BeautifulSoup4, Requests.
+* **Machine Learning:** Scikit-Learn, SciPy, Statsmodels, Yellowbrick (Visual Analysis).
+* **Data Manipulation:** Pandas, NumPy, Tidyverse (R), Unidecode, SQLAlchemy, Python-dotenv.
+* **Visualization:** Matplotlib, Seaborn, Ggplot2 (R).
 
 ---
 
@@ -62,4 +69,4 @@ The mathematical engine driving the code through algorithmic implementation.
 * **Reproducibilidad:** Structured modularity with clear dependency management.
 
 ---
-*Developed by Francisco Solís Pedraza | Information Technologies for Science, UNAM.*
+*Developed by Francisco Solís Pedraza | Bachelor's in Information Technology for Science | ENES Morelia, UNAM.*

@@ -1,6 +1,6 @@
 # Machine Learning Models: Implementation & Theory
 
-This directory contains a comprehensive collection of Machine Learning implementations, ranging from classical supervised algorithms to advanced unsupervised techniques. Each sub-project focuses on solving specific real-world problems using a rigorous mathematical approach.
+This module contains a comprehensive collection of Machine Learning implementations, ranging from classical supervised algorithms to advanced unsupervised techniques. Each sub-project focuses on solving specific real-world problems using a rigorous mathematical approach.
 
 ---
 

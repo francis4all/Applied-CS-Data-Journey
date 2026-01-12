@@ -1,6 +1,6 @@
 # Mathematical Foundations for AI
 
-This directory explores the core mathematical concepts that power modern Artificial Intelligence and Computer Vision. It bridges the gap between abstract theory and practical implementation using Python.
+This module explores the core mathematical concepts that power modern Artificial Intelligence and Computer Vision. It bridges the gap between abstract theory and practical implementation using Python.
 
 ## Project Overview
 
@@ -35,3 +35,6 @@ This directory explores the core mathematical concepts that power modern Artific
     - **For the Visualizer:** Run the Python script directly (requires a desktop environment for the GUI window):
         ```bash
         python src/visualizer.py
+
+---
+*Developed as part of my Applied CS Data Journey | ENES Morelia, UNAM.*
