@@ -22,6 +22,24 @@ This directory contains predictive modeling projects leveraging labeled datasets
     * [`notebooks/horse_colic_LogReg.ipynb`](./notebooks/horse_colic_LogReg.ipynb)
     * [`notebooks/horse_colic_SVM.ipynb`](./notebooks/horse_colic_SVM.ipynb)
 
+## Model Performance & Metrics
+### Emotion Classification (SVM)
+We analyzed the confusion matrix to identify how the model distinguishes between 6 different emotions. The visualization helped us decide to merge or weight classes with high overlap.
+
+![Confusion Matrix - Emotions](./images/confussion_matrix_tweet_emotion_svm.png)
+
+*Figure 1: Multiclass performance analysis for tweet emotions.*
+
+
+
+### The Power of Kernels (RBF vs Linear)
+A significant part of our medical diagnosis study involved testing decision boundaries. Below is the evidence of why the **Radial Basis Function (RBF)** was superior to a standard Linear Kernel for the Horse Colic dataset.
+
+| Linear Kernel (Underfitting) | RBF Kernel (Optimized) |
+|:---:|:---:|
+| ![Linear Fail](./images/fail_linear_kernel.png) | ![RBF Success](./images/success_kernel_RBF.png) |
+| *High bias, failing to capture patterns* | *Flexible boundary capturing data complexity* |
+
 ## Usage Instructions
 
 1. **Install Dependencies:**

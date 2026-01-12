@@ -27,6 +27,29 @@ This directory hosts advanced Machine Learning projects focused on **pattern dis
     * **NMF (Non-negative Matrix Factorization):** To decompose the document-term matrix into interpretable semantic topics like "Love", "Money", or "Protection".
 * **Notebook:** [`notebooks/03_topic_modeling_nmf_spells.md`](./notebooks/topic_modeling_nmf_spells.ipynb)
 
+## 🔍 Latent Pattern Discovery & Visualization
+
+### Mixed-Data Clustering (Student Mental Health)
+By calculating **Gower's Distance** and applying **UMAP** for non-linear dimensionality reduction, we were able to project high-dimensional student data into a 2D space. This visualization confirms the existence of 4 distinct clusters (including the high-risk "Sleep Deprived" group).
+
+![Student Clusters](./images/umap_gower_distance_projection.png)
+*Figure 1: 2D UMAP projection.*
+
+![Student Clusters](./images/final_students_clustering.png)
+*Figure 2: 2D UMAP projection showing the 4 identified student profiles.*
+
+### Association Rules: Culinary DNA
+Using the Apriori algorithm, we identified strong associations between ingredients. The map below displays the strongest rules (high Lift/Support) that define regional Latin American cuisine.
+
+![Cuisine Map](./images/latin_america_cuisine_association_rules_map.png)
+*Figure 3: Graphical representation of ingredient association rules.*
+
+### Topic Modeling (NLP Spells)
+The **NMF (Non-negative Matrix Factorization)** distribution plots show how unstructured text files are semantically mapped into latent topics, enabling automatic categorization without manual labels.
+
+![NMF Topics](./images/doc_distribution_topic_modeling_nmf_spells.png)
+*Figure 4: Document-topic distribution showing semantic extraction results.*
+
 ## [Interactive Dashboard](./app/app.py)
 
 A production-ready dashboard built with **Dash & Plotly** is included to visualize the Mental Health Clusters.
